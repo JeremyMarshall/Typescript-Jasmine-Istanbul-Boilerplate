@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+- node
+- 'lts/*'
+
+cache: npm
+
+before_install:
+  - npm install
+
+scripts:
+  - npm install codecov -g
+  - npm run coverage
+  - npm run codecov
+
+after_success:
+  - codecov
+
+
