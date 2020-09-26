@@ -1,6 +1,7 @@
 # Typescript-Jasmine-Istanbul-Boilerplate
 
 [![codecov](https://codecov.io/gh/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate)
+[![Build Status](https://travis-ci.org/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate.svg?branch=master)](https://travis-ci.org/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate)
 
 An example node project to produce coverage of TypeScript sources to [codecov.io](https://codecov.io) using:
 
