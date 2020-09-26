@@ -1,16 +1,21 @@
 # Typescript-Jasmine-Istanbul-Boilerplate
-An example node project to produce coverage of TypeScript sources using:
+
+[![codecov](https://codecov.io/gh/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate)
+[![Build Status](https://travis-ci.org/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate.svg?branch=master)](https://travis-ci.org/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate)
+
+An example node project to produce coverage of TypeScript sources to [codecov.io](https://codecov.io) using:
 
 - Jasmine
-- Istanbul
+- nyc (Istanbul)
 - tsc
 - npm scripts
 
 The coverage report shows the typescript (rather than transpiled) code. That is, sourcemaps are properly handled.
 
-    $ npm install
-    $ npm run test:coverage
+    $ npm install -g codecov
+    $ npm run coverage
+    $ npm run codecov
+    $ codecov
         
-Sample output:
-
-![image](https://cloud.githubusercontent.com/assets/880132/16820312/4fe60e10-4948-11e6-8c5a-ddc9376d3918.png)    
+Or look at the [travis-ci.org](https://travis-ci.org/github/JeremyMarshall/Typescript-Jasmine-Istanbul-Boilerplate) plan
+[travis.yml](./.travis.yml)
